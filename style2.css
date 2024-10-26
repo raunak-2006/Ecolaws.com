@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #2b7a3d;
+}
+
+p, ul {
+    font-size: 1.1em;
+}
+
+a {
+    color: #2b7a3d;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+/* Header */
+header {
+    background-color: #2b7a3d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #1e5a2b;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Section titles */
+h2 {
+    border-left: 5px solid #2b7a3d;
+    padding-left: 15px;
+    margin-top: 20px;
+}
+
+/* Highlight important content */
+.law-highlight {
+    background-color: #e6f4ea;
+    padding: 10px;
+    border-left: 5px solid #2b7a3d;
+    margin: 20px 0;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #1f4b2c;
+}
+
+/* Lists */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2b7a3d;
+    color: white;
+    position: relative;
+    margin-top: 30px;
+    font-size: 0.9em;
+}
